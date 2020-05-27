@@ -183,17 +183,23 @@ a:hover{
     color:teal;
 }
 
+.constitution{
+    margin-left: 6.25em;
+    margin-right: 6.25em;
+}
+
 .duty{
     border: 1px solid black;
     background-color: honeydew;
     font-family: 'Cormorant', serif;
-    font-size: 1.5vw;
+    font-size: 2vw;
     color:forestgreen;
 }
 
 .dutyHead{
     color: brown;
-    font-size: 2vw;
+    font-size: 3vw;
+    padding-top: 22px;
 }
 
 .essense{
