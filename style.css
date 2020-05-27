@@ -188,7 +188,12 @@ a:hover{
     background-color: honeydew;
     font-family: 'Cormorant', serif;
     font-size: 1.5vw;
-    color: tan;
+    color:forestgreen;
+}
+
+.dutyHead{
+    color: brown;
+    font-size: 2vw;
 }
 
 .essense{
