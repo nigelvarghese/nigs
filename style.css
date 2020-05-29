@@ -35,12 +35,7 @@ html{
         width: 80px;
         height: 90px;
     }
-    /*
-    .logoImage{
-        padding-top: 8px;
-        padding-left: 65px;
-    }*/
-    
+      
     .navSection{
         margin-top: 16px; 
     }
@@ -49,9 +44,6 @@ html{
         margin-left: 10px;
         margin-right: 10px;
         color: #2a0966 !important;
-        /*
-        font-family: 'Shadows Into Light', cursive;
-        */
         font-family: 'Amatic SC', cursive;
         font-weight: 900;
         font-size: 25px;
@@ -111,9 +103,6 @@ html{
     }
     
     .headline{
-       /*
-        font-family: 'Shadows Into Light', cursive;
-        */
         font-family: 'Amatic SC', cursive;;
         font-weight: bold;
         font-size: 4vw;
@@ -122,9 +111,6 @@ html{
     }
     
     .content{
-        /*
-        font-family: 'Shadows Into Light', cursive;
-        */
         font-family: 'Amatic SC', cursive;
         font-size: 2vw;
         font-weight: bold;
@@ -132,9 +118,6 @@ html{
     }
     
     .contentInterests{
-        /*
-        font-family: 'Shadows Into Light', cursive; 'Fjalla One', sans-serif;
-        */
         font-family: 'Amatic SC', cursive;
         font-size: 1.6em;
         font-weight: bold;
@@ -192,7 +175,7 @@ html{
     }
     
     .photobox{
-        font-family: 'Cormorant', serif;
+        font-family: 'Amatic SC', cursive;
         color:teal;
     }
     
