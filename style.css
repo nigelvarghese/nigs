@@ -173,10 +173,7 @@ html{
         text-decoration: none;
         color: teal;
     }
-
-   a:visited{
-    color: honeydew;
-   }   
+  
 
     .photobox{
         font-family: 'Amatic SC', cursive;
