@@ -1,219 +1,233 @@
 html{
-scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+    }
+    
+    body{
+        width: 100%;
+        background-color: honeydew;
+        overflow-x: hidden;
+    }
+    
+    .headerSection{
+        background-color: hotpink;  
+        height: 100px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .logo{
+        font-size: 25px;
+        font-family: constantia regular;
+        color: #2a0966;
+        margin-top: 38px;
+        width: 235px;
+    }
+    
+    .logoFL{
+        font-size: 145px;
+        font-family: ink free regular;
+        color: olive;
+    }
+    
+    
+    .logoIcon{
+        width: 80px;
+        height: 90px;
+    }
+    /*
+    .logoImage{
+        padding-top: 8px;
+        padding-left: 65px;
+    }*/
+    
+    .navSection{
+        margin-top: 16px; 
+    }
+    
+    .navItem{
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #2a0966 !important;
+        /*
+        font-family: 'Shadows Into Light', cursive;
+        */
+        font-family: 'Amatic SC', cursive;
+        font-weight: 900;
+        font-size: 25px;
+    }
+    
+    .btnStyle{
+        background-color: honeydew;
+        border: 2px solid teal;
+        border-radius: 2em;
+    }
+    
+    #menuStyle{
+        background-color: hotpink;
+    }
+    
+    .imageSection{
+        margin-top: 100px;     
+      
+    }
 
-body{
-    width: 100%;
-    background-color: honeydew;
-    overflow-x: hidden;
-}
-
-.headerSection{
-    background-color: hotpink;  
-    height: 100px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
-.logo{
-    font-size: 25px;
-    font-family: constantia regular;
-    color: #2a0966;
-    margin-top: 38px;
-    width: 235px;
-}
-
-.logoFL{
-    font-size: 145px;
-    font-family: ink free regular;
-    color: olive;
-}
-
-
-.logoIcon{
-    width: 80px;
-    height: 90px;
-}
-/*
-.logoImage{
-    padding-top: 8px;
-    padding-left: 65px;
-}*/
-
-.navSection{
-    margin-top: 16px; 
-}
-
-.navItem{
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #2a0966 !important;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: 900;
-    font-size: 25px;
-}
-
-.btnStyle{
-    background-color: honeydew;
-    border: 2px solid teal;
-    border-radius: 2em;
-}
-
-#menuStyle{
-    background-color: hotpink;
-}
-
-.imageSection{
- 
-  padding-top: 100px;
-    width: 100%;
-  
-}
-
-.quote{
-    position: absolute;
-    top: 7%;
-    left: 47%;
-    width: 52%;
-    padding-top: 100px;
-    font-size: 2.5vw;
-    font-weight: bold;
-    font-family: 'Caveat', cursive;
-    color: grey;
-}
-
-.sectionProperty{
-    background-color: lavenderblush;
-    margin-top: 50px;
-    z-index: -1;
-}
-
-.sectionContact{
-    background-color: lavenderblush;
-    margin-top: 0px;
-    padding-top: 120px;
-}
-
-.btnProperty{
-    width: 100%;
-}
-
-
-.imageProperty{
-    width: auto;
-    height: auto;
-}
-
-.headline{
-   
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
-    font-size: 4vw;
- 
-    color: #2a0966;
-}
-
-.content{
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 2vw;
-    font-weight: bold;
-    color: black;
-}
-
-.contentInterests{
-    font-family: 'Shadows Into Light', cursive;/* 'Fjalla One', sans-serif;*/
-    font-size: 1.6em;
-    font-weight: bold;
-    color: black;
-}
-
-.reverseColumn{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-@media screen and (min-width: 800px){
-.reverseColumn{
-    flex-direction: row;
-}
-
-.aboutImage{
-    width: 50%;
-}
-
-.aboutDescription{
-    width: 50%;
-}
-}
-
-.iconProperty{
-    color: darkslategray;
-    margin: 20px;
-}
-
-.cardProperty{
-    background-color: lavender;
-}
-
-.footerSection{
-    background-color: gray;
-}
-
-.footerContent{
-    padding-top: 50px;
-    color:blanchedalmond;
-}
-
-
-a{
-    text-decoration: none;
-    color: honeydew;
-    font-size: 30px;
-    margin: 8px;
-}
-
-a:hover{
-    text-decoration: none;
-    color: teal;
-}
-
-.photobox{
-    font-family: 'Cormorant', serif;
-    color:teal;
-}
-
-.constitution{
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-
-.duty{
-    border: 1px solid black;
-    background-color: honeydew;
-    font-family: 'Cormorant', serif;
-    font-size: 2vw;
-    color:forestgreen;
-}
-
-.dutyHead{
-    color: brown;
-    font-size: 3vw;
-    padding-top: 22px;
-}
-
-.essense{
-    color: red;
-    font-size: 1em;
-}
-
-.essense:hover{
-    color: teal;
-}
-
-.photobox:hover{
-    border: solid 1px blue;
-}
-
-
-
+   #homeScreen{
+       background-color: lavenderblush;
+   }
+    
+    .quote{
+        position: absolute;
+        top: 7%;
+        left: 41%;
+        width: 52%;
+        padding-top: 1.25em;
+        font-size: 2.5vw;
+        font-weight: bold;
+        font-family: 'Caveat', cursive;
+        color: grey;
+    }
+    
+    .sectionProperty{
+        background-color: lavenderblush;
+        margin-top: 50px;
+        z-index: -1;
+    }
+    
+    .sectionContact{
+        background-color: lavenderblush;
+        margin-top: 0px;
+        padding-top: 120px;
+    }
+    
+    .btnProperty{
+        width: 100%;
+    }
+    
+    
+    .imageProperty{
+        width: auto;
+        height: auto;
+    }
+    
+    .headline{
+       /*
+        font-family: 'Shadows Into Light', cursive;
+        */
+        font-family: 'Amatic SC', cursive;;
+        font-weight: bold;
+        font-size: 4vw;
+     
+        color: #2a0966;
+    }
+    
+    .content{
+        /*
+        font-family: 'Shadows Into Light', cursive;
+        */
+        font-family: 'Amatic SC', cursive;
+        font-size: 2vw;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .contentInterests{
+        /*
+        font-family: 'Shadows Into Light', cursive; 'Fjalla One', sans-serif;
+        */
+        font-family: 'Amatic SC', cursive;
+        font-size: 1.6em;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .reverseColumn{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    @media screen and (min-width: 800px){
+    .reverseColumn{
+        flex-direction: row;
+    }
+    
+    .aboutImage{
+        width: 50%;
+    }
+    
+    .aboutDescription{
+        width: 50%;
+    }
+    }
+    
+    .iconProperty{
+        color: darkslategray;
+        margin: 20px;
+    }
+    
+    .cardProperty{
+        background-color: lavender;
+    }
+    
+    .footerSection{
+        background-color: gray;
+    }
+    
+    .footerContent{
+        padding-top: 50px;
+        color:blanchedalmond;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: honeydew;
+        font-size: 30px;
+        margin: 8px;
+    }
+    
+    a:hover{
+        text-decoration: none;
+        color: teal;
+    }
+    
+    .photobox{
+        font-family: 'Cormorant', serif;
+        color:teal;
+    }
+    
+    .constitution{
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    
+    .duty{
+        border: 1px solid black;
+        background-color: honeydew;
+        font-family: 'Cormorant', serif;
+        font-size: 2vw;
+        color:forestgreen;
+    }
+    
+    .dutyHead{
+        color: brown;
+        font-size: 3vw;
+        padding-top: 22px;
+    }
+    
+    .essense{
+        color: red;
+        font-size: 1em;
+    }
+    
+    .essense:hover{
+        color: teal;
+    }
+    
+    .photobox:hover{
+        border: solid 1px blue;
+    }
+    
+    
+    
+    
