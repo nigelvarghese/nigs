@@ -214,4 +214,15 @@ html{
     
     
     
-    
+    .displayHeadProperty{
+      
+        width: 320px;
+        height: 320px;
+        border: solid 3px
+    }
+
+    .btnColorPad{
+        width: 90px;
+        border: 2px black solid;
+        margin: 5px;
+    }
