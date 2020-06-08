@@ -226,3 +226,21 @@ html{
         border: 2px black solid;
         margin: 5px;
     }
+
+    #screen{
+        width: 314px;
+        height: 314px;
+        pointer-events: none;
+        text-align: center;
+        font-size: 250px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: blue;
+        background-color: darksalmon;
+    }
+
+    .btnN{
+        width: 90px;
+        border: 2px black solid;
+        margin: 5px;
+        font-size: 40px;

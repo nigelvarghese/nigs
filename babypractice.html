@@ -100,12 +100,48 @@
                   </div>
               </div>
           </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
+          
       </section>
+
+      <section>
+        <div class="container">
+            <div class="row">
+              <div class="col-12 text-center" style="margin-top: 120px;">
+                  <h2 style="font-family: ink free regular; color: tomato;">Numeral Trainer</h2>
+                  <img src="images/babypractice_image_dora2.png" alt="" width="100px" height="90px">
+              </div>
+                <div class="col-12 col-md-6 displaySection">
+                    <div class="displayHeadProperty mx-auto" id="displayHeadN">
+                      <input type="text" id="screen">
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 text-center my-auto actionSection">
+              <div>
+                  <button onclick="press(3)" class="btnN" style="background-color: red; color: white;">3</button>
+                  <button onclick="press(9)" class="btnN" style="background-color: red; color: white;">9</button>
+                  <button onclick="press(6)" class="btnN" style="background-color: red; color: white;">6</button>
+              </div>
+              <div>
+                <button onclick="press(1)" class="btnN" style="background-color: red; color: white;">1</button>
+                <button onclick="press(0)" class="btnN" style="background-color: red; color: white;">0</button>
+                <button onclick="press(5)" class="btnN" style="background-color: red; color: white;">5</button>
+              </div>
+              <div>
+                <button onclick="press(4)" class="btnN" style="background-color: red; color: white;">4</button>
+                <button onclick="press(2)" class="btnN" style="background-color: red; color: white;">2</button>
+                <button onclick="press(7)" class="btnN" style="background-color: red; color: white;">7</button>
+              </div>
+              <div>
+                <button onclick="press(8)" class="btnN" style="background-color: red; color: white;">8</button>
+              </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
 
            <footer class="footerSection">
              <div class="container">
@@ -148,6 +184,9 @@
         document.getElementById("displayHead").style.background=col
     }
 
+    function press(val){
+      document.getElementById("screen").value=val
+    }
 </script>
 
 
