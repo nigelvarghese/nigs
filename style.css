@@ -227,7 +227,7 @@ html{
         margin: 5px;
     }
 
-    #screen{
+    .screen{
         width: 314px;
         height: 314px;
         pointer-events: none;
@@ -244,3 +244,11 @@ html{
         border: 2px black solid;
         margin: 5px;
         font-size: 40px;
+    }
+
+    .btnA{
+        width: 40px;
+        border: 2px black solid;
+        margin: 5px;
+        font-size: 15px;
+    }

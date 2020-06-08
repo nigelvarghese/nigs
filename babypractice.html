@@ -99,8 +99,7 @@
                 </div>
                   </div>
               </div>
-          </div>
-          
+          </div>   
       </section>
 
       <section>
@@ -112,7 +111,7 @@
               </div>
                 <div class="col-12 col-md-6 displaySection">
                     <div class="displayHeadProperty mx-auto" id="displayHeadN">
-                      <input type="text" id="screen">
+                      <input type="text" class="screen" id="numeral">
 
                     </div>
 
@@ -120,28 +119,85 @@
 
                 <div class="col-12 col-md-6 text-center my-auto actionSection">
               <div>
-                  <button onclick="press(3)" class="btnN" style="background-color: red; color: white;">3</button>
-                  <button onclick="press(9)" class="btnN" style="background-color: red; color: white;">9</button>
-                  <button onclick="press(6)" class="btnN" style="background-color: red; color: white;">6</button>
+                  <button onclick="pressN(3)" class="btnN" style="background-color: red; color: white;">3</button>
+                  <button onclick="pressN(9)" class="btnN" style="background-color: red; color: white;">9</button>
+                  <button onclick="pressN(6)" class="btnN" style="background-color: red; color: white;">6</button>
               </div>
               <div>
-                <button onclick="press(1)" class="btnN" style="background-color: red; color: white;">1</button>
-                <button onclick="press(0)" class="btnN" style="background-color: red; color: white;">0</button>
-                <button onclick="press(5)" class="btnN" style="background-color: red; color: white;">5</button>
+                <button onclick="pressN(1)" class="btnN" style="background-color: red; color: white;">1</button>
+                <button onclick="pressN(0)" class="btnN" style="background-color: red; color: white;">0</button>
+                <button onclick="pressN(5)" class="btnN" style="background-color: red; color: white;">5</button>
               </div>
               <div>
-                <button onclick="press(4)" class="btnN" style="background-color: red; color: white;">4</button>
-                <button onclick="press(2)" class="btnN" style="background-color: red; color: white;">2</button>
-                <button onclick="press(7)" class="btnN" style="background-color: red; color: white;">7</button>
+                <button onclick="pressN(4)" class="btnN" style="background-color: red; color: white;">4</button>
+                <button onclick="pressN(2)" class="btnN" style="background-color: red; color: white;">2</button>
+                <button onclick="pressN(7)" class="btnN" style="background-color: red; color: white;">7</button>
               </div>
               <div>
-                <button onclick="press(8)" class="btnN" style="background-color: red; color: white;">8</button>
+                <button onclick="pressN(8)" class="btnN" style="background-color: red; color: white;">8</button>
               </div>
                 </div>
             </div>
         </div>
-        <br>
     </section>
+
+    <section>
+      <div class="container">
+          <div class="row">
+            <div class="col-12 text-center" style="margin-top: 120px;">
+                <h2 style="font-family: ink free regular; color: tomato;">Alphabet Trainer</h2>
+                <img src="images/babypractice_image_dora3.png" alt="" width="100px" height="90px">
+            </div>
+              <div class="col-12 col-md-6 displaySection">
+                  <div class="displayHeadProperty mx-auto" id="displayHeadN">
+                    <input type="text" class="screen" id="alphabet">
+
+                  </div>
+
+              </div>
+
+              <div class="col-12 col-md-6 text-center my-auto actionSection">
+            <div>
+                <button onclick="pressA('A')" class="btnA" style="background-color: red; color: white;">A</button>
+                <button onclick="pressA('B')" class="btnA" style="background-color: red; color: white;">B</button>
+                <button onclick="pressA('C')" class="btnA" style="background-color: red; color: white;">C</button>
+                <button onclick="pressA('D')" class="btnA" style="background-color: red; color: white;">D</button>
+                <button onclick="pressA('E')" class="btnA" style="background-color: red; color: white;">E</button>
+                <button onclick="pressA('F')" class="btnA" style="background-color: red; color: white;">F</button>
+            </div>
+            <div>
+              <button onclick="pressA('G')" class="btnA" style="background-color: red; color: white;">G</button>
+              <button onclick="pressA('H')" class="btnA" style="background-color: red; color: white;">H</button>
+              <button onclick="pressA('I')" class="btnA" style="background-color: red; color: white;">I</button>
+              <button onclick="pressA('J')" class="btnA" style="background-color: red; color: white;">J</button>
+              <button onclick="pressA('K')" class="btnA" style="background-color: red; color: white;">K</button>
+              <button onclick="pressA('L')" class="btnA" style="background-color: red; color: white;">L</button>
+            </div>
+            <div>
+              <button onclick="pressA('M')" class="btnA" style="background-color: red; color: white;">M</button>
+              <button onclick="pressA('N')" class="btnA" style="background-color: red; color: white;">N</button>
+              <button onclick="pressA('O')" class="btnA" style="background-color: red; color: white;">O</button>
+              <button onclick="pressA('P')" class="btnA" style="background-color: red; color: white;">P</button>
+              <button onclick="pressA('Q')" class="btnA" style="background-color: red; color: white;">Q</button>
+              <button onclick="pressA('R')" class="btnA" style="background-color: red; color: white;">R</button>
+            </div>
+            <div>
+              <button onclick="pressA('S')" class="btnA" style="background-color: red; color: white;">S</button>
+              <button onclick="pressA('T')" class="btnA" style="background-color: red; color: white;">T</button>
+              <button onclick="pressA('U')" class="btnA" style="background-color: red; color: white;">U</button>
+              <button onclick="pressA('V')" class="btnA" style="background-color: red; color: white;">V</button>
+              <button onclick="pressA('W')" class="btnA" style="background-color: red; color: white;">W</button>
+              <button onclick="pressA('X')" class="btnA" style="background-color: red; color: white;">X</button>
+            </div>
+            <div>
+              <button onclick="pressA('Y')" class="btnA" style="background-color: red; color: white;">Y</button>
+              <button onclick="pressA('Z')" class="btnA" style="background-color: red; color: white;">Z</button>
+            </div>
+              </div>
+          </div>
+      </div>
+      <br>
+  </section>
 
            <footer class="footerSection">
              <div class="container">
@@ -184,8 +240,12 @@
         document.getElementById("displayHead").style.background=col
     }
 
-    function press(val){
-      document.getElementById("screen").value=val
+    function pressN(val){
+      document.getElementById("numeral").value=val
+    }
+
+    function pressA(val){
+      document.getElementById("alphabet").value=val
     }
 </script>
 
